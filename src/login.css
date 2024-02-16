@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+   
+    
+}
+
+.log-form{
+    width: 40rem;
+    height: 20rem;
+    margin: auto;
+    background-color: bisque;
+    margin-top: 200px
+    
+}
+.log-form input{
+    width: 23rem;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}

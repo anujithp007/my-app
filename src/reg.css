@@ -1,0 +1,99 @@
+.main-form{
+    border: 1px solid black;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #00ff88 , rgb(0, 153, 255));
+    border: none;
+    border-radius: 20px;
+    
+    /* padding: 50px; */
+
+}
+input{
+    width: 100%;
+    margin: auto;
+    background-color: azure;
+    border: none;
+    box-shadow: 1px 6px 10px 0px ;
+}
+label{
+    margin: auto;
+    font-weight: 700;
+    color: #2b2f2fa6;
+    /* padding-top: 60px; */
+}
+::placeholder{
+    text-align: center;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.527);
+}
+h1{
+    text-align: center;
+    color:#0d5968bb;
+}
+p{
+    text-align: center;
+    color: rgba(224, 227, 230, 0.822);
+}
+.sub{
+    background-color: blue;
+    color: white;
+}
+.pp{
+    color: black
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+.confirm-div{
+    max-width: 400px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: emoji;
+}
+.main-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+@media screen and (max-width: 600px) {
+    .main-form, .confirm-div {
+      max-width: 100%;}
+    h3{
+        font-size: 15px;
+    }
+    }
